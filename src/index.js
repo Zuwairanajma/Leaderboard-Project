@@ -30,7 +30,7 @@ const refreshScores = async () => {
     }
   } catch (error) {
     // Handle API request error
-    // console.error('Error retrieving scores:', error.message);
+    console.error('Error retrieving scores:', error.message);
   }
 };
 
