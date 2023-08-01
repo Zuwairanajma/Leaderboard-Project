@@ -30,6 +30,7 @@ html {
 
 body {
   background-color: var(--black);
+
   /* background-color: white; */
   color: #000;
   border: 2px solid black;
@@ -41,11 +42,6 @@ body {
   margin-top: 40px;
 }
 
-.header .navbar .logo {
-  font-size: 2.5rem;
-  color: var(--main-color);
-}
-
 .logo {
   text-decoration: none;
   color: black;
@@ -53,6 +49,11 @@ body {
   font-size: 32px;
   margin-left: 24px;
   margin-bottom: -200px;
+}
+
+.header .navbar .logo {
+  font-size: 2.5rem;
+  color: var(--main-color);
 }
 
 .score-section {
