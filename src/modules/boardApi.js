@@ -47,7 +47,6 @@ export const getGameId = () => localStorage.getItem('gameId');
 
 // Retrieve all scores for the game
 export const retrieveScores = async () => {
-  // const gameId = localStorage.getItem('gameId');
   const gameId = getGameId();
   try {
     const response = await makeApiRequest(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`, 'GET');
@@ -60,7 +59,6 @@ export const retrieveScores = async () => {
 
 // Save a score for the game
 export const addYourScore = async (userName, score) => {
-//   const gameId = localStorage.getItem('gameId');
   const gameId = getGameId();
   // Validate user input
   if (!userName || !score || Number.isNaN(parseInt(score, 10))) {

@@ -50,6 +50,8 @@ Leaderboard is a simple project built to consume the leaderboard API. A user can
     <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/ru/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/ru/docs/Web/JS">JS</a></li>
+    <li><a href="#">WebpackDevServer</a></li>
+    <li><a href="#">HTMLWebpackPlugin</a></li>
   </ul>
 </details>
 
@@ -107,8 +109,9 @@ Installations required to run this project:
 
 ### Usage
 
-You can use this project by cloning it to your folder and changing index.html and styles.css files.
-
+You can use this project by cloning it to your folder and changing index.html and index.css files.
+Use this app manually by running 
+> npm start 
 ### Run tests
 
 To run tests, run the following commands:
@@ -116,7 +119,7 @@ To run tests, run the following commands:
 > npx hint .
 > npx stylelint "**/*.{css,scss}"
 > npx eslint .
-> npm start
+> npm run start
 
 ### Deployment
 
