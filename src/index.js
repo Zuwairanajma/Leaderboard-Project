@@ -30,7 +30,6 @@ const refreshScores = async () => {
     }
   } catch (error) {
     // Handle API request error
-    // console.error('Error retrieving scores:', error.message);
   }
 };
 
@@ -54,9 +53,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const gameName = 'My Beauty Game';
   try {
     await createGame(gameName);
-    // await refreshScores();  // Do not refresh scores automatically here
   } catch (error) {
     // Handle API request error
-    console.error('Error creating new game:', error.message);
   }
 });
