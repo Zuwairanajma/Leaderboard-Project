@@ -1,5 +1,6 @@
 // Helper function to handle API errors
 const handleApiError = (error) => {
+  // Handle API request error
   console.error('An error occurred:', error);
 };
 
