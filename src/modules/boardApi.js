@@ -1,6 +1,7 @@
 // Helper function to handle API errors
-const handleApiError = () => {
+const handleApiError = (error) => {
   // Handle API request error
+  console.error('An error occurred:', error);
 };
 
 // Helper function to make API requests
