@@ -109,9 +109,6 @@ Installations required to run this project:
 
 ### Usage
 
-You can use this project by cloning it to your folder and changing index.html and index.css files.
-Use this app manually by running 
-> npm start 
 ### Run tests
 
 To run tests, run the following commands:
@@ -119,7 +116,25 @@ To run tests, run the following commands:
 > npx hint .
 > npx stylelint "**/*.{css,scss}"
 > npx eslint .
-> npm run start
+
+### Build
+
+To build the project, run the following command:
+
+```bash
+npm run build
+```
+
+### Webpack Development Server
+
+To run the webpack development server, execute the following command:
+
+```bash
+npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Deployment
 
