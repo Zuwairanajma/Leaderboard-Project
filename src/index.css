@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700;900&display=swap");
 
+:root {
+  --main-color: #ff0;
+  --light-white: rgba(255, 255, 255, 0.5);
+  --light-black: rgba(0, 0, 0, 0.3);
+  --light-bg: rgba(255, 255, 255, 0.1);
+  --white: #fff;
+  --black: #000;
+}
+
 * {
   font-family: "Comfortaa", cursive;
   margin: 0;
@@ -12,8 +21,16 @@ html {
   overflow-x: hidden;
 }
 
+#menu-btn {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: var(--white);
+  display: none;
+}
+
 body {
-  background-color: white;
+  background-color: var(--black);
+  /* background-color: white; */
   color: #000;
   border: 2px solid black;
   height: 100%;
@@ -22,6 +39,11 @@ body {
 
 .header {
   margin-top: 40px;
+}
+
+.header .navbar .logo {
+  font-size: 2.5rem;
+  color: var(--main-color);
 }
 
 .logo {
@@ -44,6 +66,7 @@ body {
   margin-top: 35px;
   border: 2px solid black;
   margin-bottom: 35px;
+  background-color: var(--light-white);
 }
 
 .score-header {
@@ -56,9 +79,20 @@ h2 {
   font-weight: 800;
 }
 
+.container-home h2 {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  color: var(--light-white);
+}
+
 .container-home {
   display: flex;
   gap: 70px;
+  background: no-repeat url('../asset/background.jpg') rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .add-score form {
@@ -96,6 +130,10 @@ li:nth-child(odd) {
   background-color: white;
 }
 
+.refresh-btn {
+  margin-top: 18px;
+}
+
 span {
   margin-left: 10px;
 }
@@ -126,4 +164,39 @@ footer {
 
 .error-msg {
   display: none;
+}
+
+@media (max-width: 645px) {
+  .container-home {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    background-color: grey;
+  }
+
+  .score-section {
+    margin-top: -50px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+
+  section .add-form {
+    width: 100%;
+  }
+
+  #menu-btn {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .refresh-btn {
+    margin-top: 18px;
+  }
 }
