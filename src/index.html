@@ -18,26 +18,21 @@
       <h2>Recent scores</h2>
       <button id="refresh-button" class="refresh-btn btn">Refresh</button>
     </div>
-<div class="score-container">
+<div id="scores-container"  class="score-container">
   <ul>
-    <li><span>Name:</span><span>100</span></li>
-    <li><span>Name:</span><span>20</span></li>
-    <li><span>Name:</span><span>50</span></li>
-    <li><span>Name:</span><span>78</span></li>
-    <li><span>Name:</span><span>125</span></li>
-    <li><span>Name:</span><span>77</span></li>
-    <li><span>Name:</span><span>42</span></li>
   </ul>
 </div>
   </section>
+
   <section class="add-score">
-    <form action="#" method="post">
+    <form action="" class="add-form">
       <h2>Add Your Score</h2>
       <div class="input">
-      <input type="text" required maxlength="50" placeholder="Your name" class="box">
-      <input type="number" min="1" maxlength="6" placeholder="Your score" required class="box"/></div>
+      <input type="text" name="Player" required maxlength="50" placeholder="Your name" class="box">
+      <input type="number" name="score" min="1" maxlength="6" placeholder="Your score" required class="box"/></div>
       <button type="submit" class="submit-btn btn">Submit</button>
     </form>
+    <p id="error-msg" class="error-msg">Both input fields required.</p> 
   </section>
 </section>
   <footer>
