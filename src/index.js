@@ -11,7 +11,7 @@ const refreshScores = async () => {
 
     if (scores.length === 0) {
       const noScoresMessage = document.createElement('p');
-      noScoresMessage.textContent = 'Lets start';
+      noScoresMessage.textContent = 'Lets begin';
       scoresContainer.appendChild(noScoresMessage);
     } else {
       scores.forEach(({ user, score }) => {
