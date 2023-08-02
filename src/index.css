@@ -30,16 +30,13 @@ html {
 
 body {
   background-color: var(--black);
-
-  /* background-color: white; */
   color: #000;
   border: 2px solid black;
   height: 100%;
-  margin-top: 10px;
 }
 
 .header {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .logo {
@@ -48,7 +45,6 @@ body {
   font-weight: 800;
   font-size: 32px;
   margin-left: 24px;
-  margin-bottom: -200px;
 }
 
 .header .navbar .logo {
@@ -94,6 +90,7 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
+  height: 100vh;
 }
 
 .add-score form {
@@ -161,6 +158,7 @@ footer {
   border: 2px solid black;
   height: 35px;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .error-msg {

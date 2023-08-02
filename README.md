@@ -35,14 +35,8 @@ Leaderboard is a simple project built to consume the leaderboard API. A user can
 <p>HTML</p>
 <p>CSS</p>
 <p>JS</p>
-
-
-<details>
-  <summary>HTML</summary>
-  <ul>
-    <li><a href="#">HTML</a></li>
-  </ul>
-</details>
+<p>WebpackDevServer<p>
+<p>HTMLWebpackPlugin<p>
 
 <details>
  <summary>Client</summary>
@@ -65,7 +59,7 @@ Leaderboard is a simple project built to consume the leaderboard API. A user can
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-There is currently no live demo for this project
+You can view this project using this URL "https://zuwairanajma.github.io/Leaderboard-Project/dist/"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
 
@@ -181,11 +175,6 @@ I would like to appreciate and acknowledge the esteem Microverse program for pro
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-**No FAQ for now**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
