@@ -36,7 +36,7 @@ body {
 }
 
 .header {
-  margin-top: 10px;
+  padding: 10px;
 }
 
 .logo {
@@ -55,7 +55,7 @@ body {
 .score-section {
   display: flex;
   flex-direction: column;
-  margin-left: 75px;
+  margin-left: 300px;
   margin-top: 60px;
 }
 
@@ -171,6 +171,12 @@ footer {
     align-items: center;
     width: 100%;
     background-color: grey;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+  .header {
+    padding: 8px 0 0 0;
   }
 
   .score-section {
@@ -181,13 +187,9 @@ footer {
     margin-left: 20px;
   }
 
-  section .add-form {
-    width: 100%;
-  }
-
   #menu-btn {
     display: block;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .navbar {
