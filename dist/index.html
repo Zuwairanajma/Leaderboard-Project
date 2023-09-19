@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  <title>Leaderboard</title>
+<script defer src="main.bundle.js"></script></head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo"> 
+      Leaderboard</a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </nav>
+  </header>
+  <section class="container-home">
+  <section class="score-section">
+    <div class="score-header">
+      <h2>Recent scores</h2>
+      <button id="refresh-button" class="refresh-btn btn">Refresh</button>
+    </div>
+<div id="scores-container"  class="score-container">
+  <ul>
+  </ul>
+</div>
+  </section>
+
+  <section class="add-score">
+    <form action="" class="add-form">
+      <h2>Add Your Score</h2>
+      <div class="input">
+      <input type="text" name="Player" required maxlength="50" placeholder="Your name" class="box">
+      <input type="number" name="score" min="1" maxlength="6" placeholder="Your score" required class="box"/></div>
+      <button type="submit" class="submit-btn btn">Submit</button>
+    </form>
+    <p id="error-msg" class="error-msg">Both input fields required.</p> 
+  </section>
+</section>
+  <footer>
+    <div class="footer-section"></div>
+  </footer>
+</body>
+</html>
